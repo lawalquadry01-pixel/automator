@@ -1,0 +1,201 @@
+🧠 Project Overview: MemeCoin Community Utility Bot
+🎯 Purpose
+
+To build a community management and growth bot tailored for Solana and EVM meme coin projects.
+The goal is to help these projects grow and manage their communities easily — in exchange for cross-promotion and user exposure for our trading bot (like BonkBot/Unibot).
+
+This utility bot will handle verification, anti-spam, engagement tracking, and referral growth — all through a sleek mini-app style interface that requires no coding knowledge from project admins.
+
+⚙️ Core Features
+🧍‍♂️ User Features
+
+Welcome & Verification Flow
+
+When a user starts the bot, they receive a welcome message.
+
+The bot sends a simple verification challenge (e.g., “What’s 5 + 6?” with multiple-choice buttons).
+
+If the user answers correctly:
+
+They are verified ✅
+
+The bot sends a confirmation message:
+
+You’re verified, {username} 🎉
+
+
+It also sends:
+
+Their unique referral link
+
+Their referral stats
+
+Buttons for quick actions (Join Group / Channel / Bot / Refresh)
+
+Example:
+
+Here’s your referral link to invite friends 🚀
+{your_referral_link}
+Users referred: 0
+
+
+Buttons:
+
+[Join Group] [Join Channel] [Join Bot] [Refresh]
+
+
+If the project has only a group or channel (not both), only relevant buttons appear automatically.
+
+Referral System + Leaderboard
+
+Each user gets a unique referral link (e.g., t.me/YourBot?start=username).
+
+The bot tracks:
+
+How many users joined the group via each referral link.
+
+Displays referral leaderboard inside the bot.
+
+Admin can view full referral analytics for the group.
+
+Engagement Tracker
+
+Tracks every message sent by users in the group.
+
+Builds a message count leaderboard to show top active members.
+
+Can be used for community rewards, giveaways, or recognition.
+
+Buy Alerts (Optional)
+
+Displays live alerts when someone buys the project’s token (e.g., “🟢 User bought 25,000 $TOKEN”).
+
+This can be linked with the project’s token contract or API.
+
+Raiding System
+
+Automatically detects new Twitter/X posts from the project’s handle.
+
+Sends the tweet to the group and encourages members to raid (like, comment, retweet).
+
+Optional leaderboard for top raiders or reactors.
+
+👑 Admin Features (Mini App Style)
+
+Dashboard Menu
+
+When an admin adds the bot to their group, that group appears as a button in the main menu.
+
+Clicking it opens a dashboard for settings and analytics.
+
+Admin Analytics
+
+View top referrals, most active members, and engagement stats.
+
+Option to export or refresh analytics.
+
+Quick Setup (No Commands)
+
+Everything works with buttons and toggles — no /commands or code edits.
+
+Each option opens inline menus (not new messages) for a smooth “mini app” feel.
+
+Customizable Anti-Spam & Moderation
+
+Admins can toggle moderation features:
+
+Anti-spam filters
+
+Auto-moderation
+
+Custom ban words (hate speech, offensive language, etc.)
+
+Example:
+
+Admin clicks [Hate Speech Filter]
+
+Bot asks: “Enter banned words separated by commas (e.g., fuck,bitch,hate)”
+
+After admin submits, the bot saves the list, deletes the prompt and input, and confirms:
+“✅ Filter updated successfully.”
+
+Welcome & Goodbye Messages
+
+Custom messages for when users join or leave.
+
+Supports dynamic placeholders like {username} or {groupname}.
+
+Anti-Spam Verification
+
+Before joining the group, new users must complete verification (simple math or captcha-style challenge).
+
+Incorrect answers trigger a new random question until solved.
+
+Integration Options
+
+Admin can add:
+
+Telegram Group
+
+Channel
+
+Official Bot link
+
+They can also edit or remove these easily using in-bot buttons.
+
+💡 Technical Flow Summary
+For Admins
+
+Add the bot to their group as admin.
+
+Open the bot and see all added groups listed.
+
+Select a group to open the Admin Dashboard.
+
+Configure:
+
+Welcome message
+
+Anti-spam settings
+
+Buy alerts toggle
+
+Referral system
+
+Raiding setup
+
+Done — no coding or commands needed.
+
+For Users
+
+Start the bot.
+
+Complete verification challenge.
+
+Receive verification success message + referral link.
+
+Join group/channel using provided buttons.
+
+Participate in the group → earn leaderboard points for engagement or referrals.
+
+💰 Partnership Value
+
+By providing this bot to meme coin projects for free, we:
+
+Help them automate their community growth and engagement.
+
+Earn trust and visibility within meme coin communities.
+
+Can softly promote our trading bot (e.g., “Powered by [Our Bot Name]”) in their group messages or dashboards.
+
+Build a network of active crypto users that easily onboard to our main trading bot.
+
+🧩 Future Add-Ons
+
+On-chain wallet linking for airdrop or buy alerts.
+
+Telegram mini app dashboard for visual analytics.
+
+Cross-community leaderboard (compare across multiple meme projects).
+
+Integrate with our trading bot for “Buy Token” or “Trade Now” buttons.

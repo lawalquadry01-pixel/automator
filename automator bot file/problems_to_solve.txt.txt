@@ -1,0 +1,30 @@
+1. when refresh button is clicked, it should refresh the user refered under here 
+Here’s your referral link to invite friends 🚀
+t.me/automator_ai_bot?start=qfwagmi
+Users referred: 0
+
+instead, it changes the verification success message above to this 'Users referred: 0'
+
+2.when you add the bot to your group and make it an admin, you go to the the bot dm and send /admin
+then it shows you a list of menus like analytics, settings, anti-spam, back button etc none of them is working except from the analytics button 
+
+3. when it works we need to confirm its functionality and see it actually works , tracks referral properly(when refered prson joins the group), sends the modifed welcome/goodbye message, shows the integrations we added like custom channel link , group link or bot link ... buy token notification too should be integrated  
+also test trying spams, or hateful message in the group and confirm the bot turly delete them, and track each members of the group as in the leaderboard(use the Luminous Team V1) to test and let it help us track most engaging members. 
+
+P.S- PLEASE ENSURE NO STACKED MESSAGE, EVEYRHTING UNDER THE ADMIN DASHBOARD SHOUD TRANSIT IN STATEFUL FLOW WITHOUT SENDING MUTIPLE MESSAGES, AND ANY THING THAT NEEDS INPUT LIKE A WORD TO BAN, ETC, THE MESSAGE THE BOT SENDS TO PROMPT YOU TO ENTER THE WORD TO BAN, AND YOU REPLY SHOULD BE DELETED ONCE ITS UPDATED TO THE DATABSE AND SHOWS ON THE FRONTEND
+
+FOR THAT, WE MIGHT NEED TO BUILLD IT AS A MENU FUNCTION, THEN PUT A PLACE HOLDER LIKE '-' IN FRONT OF IT IN THE BUTTON LIKE ;
+[BAN WORD(s):-]
+
+when you clcik on it, it sends you a message like 
+please enter word to ban below with commas seperation e.g hate,fuck
+
+when you send this 
+
+hell, shit 
+
+it clears the prompt and your input 
+
+then updates this button [BAN WORD(s):-] to this [BAN WORD(s):hell, shit ]
+
+check other parts of the plans as well, and see everything is working well.
